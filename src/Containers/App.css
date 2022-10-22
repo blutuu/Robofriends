@@ -12,6 +12,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  font-display: swap;
 }
 
 @media (prefers-reduced-motion: no-preference) {
