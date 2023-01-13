@@ -1,3 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`expect to render Card component 1`] = `ShallowWrapper {}`;
+exports[`expect to render Card component 1`] = `
+<div
+  className="robocard tc pa3 ma2 br3 shadow-5 bg-light-green grow dib pointer"
+>
+  <img
+    alt="robot undefined"
+    height="200"
+    src="https://robohash.org/undefined?size=200x200"
+    width="200"
+  />
+  <div>
+    <h2
+      className="f5"
+    />
+    <span />
+  </div>
+</div>
+`;
