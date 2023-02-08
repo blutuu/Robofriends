@@ -6,6 +6,7 @@ import SearchBox from "../Components/SearchBox";
 import Scroll from "../Components/Scroll";
 import ErrorBoundary from "../Components/ErrorBoundary";
 import { setSearchField, requestRobots } from "../Redux/actions";
+import CounterButton from "../Components/CounterButton";
 
 const mapStateToProps = (state) => {
   return {
@@ -42,6 +43,7 @@ class App extends Component {
       <div className="App">
         <h1 className="f2">Robofriends</h1>
         <SearchBox searchChange={onSearchChange} />
+        <CounterButton />
         <Scroll>
           <ErrorBoundary>
             <CardList robots={filteredRobots} />

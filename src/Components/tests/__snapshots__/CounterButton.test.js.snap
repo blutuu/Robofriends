@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CounterButton /> expect to render CounterButton component 1`] = `
+<button
+  className="mb3 "
+  color="black"
+  id="count-button"
+  onClick={[Function]}
+>
+  Count: 
+  0
+</button>
+`;
