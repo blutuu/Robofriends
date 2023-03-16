@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing main page component renders MainPage without crashing 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="f2"
+  >
+    Robofriends
+  </h1>
+  <SearchBox
+    searchChange={[MockFunction]}
+  />
+  <CounterButton />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        robots={Array []}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;
+
+exports[`Testing main page component tests the pending variable 1`] = `
+<h1>
+  LOADING...
+</h1>
+`;
