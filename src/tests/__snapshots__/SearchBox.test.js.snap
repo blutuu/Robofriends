@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox component testing renders SearchBox correctly 1`] = `
+<Fragment>
+  <input
+    className="db ml-auto mr-auto mt3 mb4 pa2"
+    onChange=""
+    placeholder="Search Robots"
+    type="search"
+  />
+</Fragment>
+`;

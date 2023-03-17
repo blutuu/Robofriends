@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import MainPage from "../../Components/MainPage";
+import MainPage from "../Components/MainPage";
 
 let wrapper;
 

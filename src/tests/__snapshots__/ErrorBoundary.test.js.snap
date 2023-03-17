@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary component testing renders the ErrorBoundary component correctly 1`] = `""`;
+
+exports[`ErrorBoundary component testing renders the error message correctly 1`] = `
+<ErrorBoundary>
+  <h1>
+    Uh oh. An error occurred.
+  </h1>
+</ErrorBoundary>
+`;

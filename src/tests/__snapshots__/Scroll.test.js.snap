@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scroll component testing renders the Scroll component correctly 1`] = `
+<div
+  className="ba bw2"
+  style={
+    Object {
+      "height": "500px",
+      "overflow": "scroll",
+    }
+  }
+/>
+`;
